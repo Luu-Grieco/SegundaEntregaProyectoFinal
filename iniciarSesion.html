@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   <!--Llamamos a nuestras líneas de estilos-->
+   <link rel="stylesheet" href="./css/style.css">
+   <title>Iniciar Sesión</title>
+</head>
+<body>
+    <header class="colorFondo text-dark text-secondary text-center">
+        <div class=" p-3 logo">
+            <img src="./img/logo.png" alt="">
+        </div class= "lead seccionDiv">
+        <h1>Michi Web</h1> 
+        <nav class="navbar navbar navbar-dark bg-dark navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Volver a inicio</a>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="iniciarSesion.html">Iniciar sesión</a>
+                  </li>
+                 <li class="nav-item">
+                    <a class="nav-link disabled"></a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Michibúsqueda</button>
+                </form>
+              </div>
+            </div>
+</header>
+<main> 
+    <br>
+    <h2 class="iniciarSesion">Inicia sesión en la Michi Web</h2>
+    <form>
+        <br>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Ingresa tu mail</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text"></div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Ingresá tu contraseña</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Recuérdame</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+      </form>
+      <br>
+      <br>
+</main>
+      <footer class="bg-secondary p-3 text-dark text-bg-dark text text-center text-warning">
+        <div class=" bg-secondary p-3 text-dark text-bg-dark text text-center redes text-warning">
+          <h4>Redes sociales</h4>
+              <li><a class="" href="#">Facebook</a></li>
+              <li><a href="#">Twtter</a></li>
+              <li><a href="#">Instagram</a></li>
+      </div>
+      <div class=" bg-secondary p-3 text-dark text-bg-dark text text-center nosotros">
+          <h4>Sobre nosotros</h4>
+              <li><a href="#">Contactanos</a></li>
+              <li><a href="#">Productos</a></li>
+              <li><a href="#">Pago y envío</a></li>
+              <li><a href="#">Legales</a></li>
+              <li><a href="#">Pet shops</a></li>
+     </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
